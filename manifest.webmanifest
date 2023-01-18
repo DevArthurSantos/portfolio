@@ -12,10 +12,13 @@
     {
       "src": "assets/favicon.ico",
       "sizes": "256x256"
-    }],
+    }
+  ],
   "related_applications": [
     {
-      "platform": "web"
+      "platform": "web",
+      "url": "https://arthursantos.tech/",
+      "id": "arthursantos.tech"
     }
   ]
 }
