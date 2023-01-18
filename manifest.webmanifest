@@ -10,7 +10,7 @@
   "description": "Portfolio de desenvolvedor arthur santos, aqui tem minhas informaçoes caso queira entrar em contato!",
   "icons": [
     {
-      "src": "icon/favicon.svg",
+      "src": "icon/favicon.webp",
       "sizes": "256x256",
       "type": "image/webp"
     }
