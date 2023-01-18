@@ -1,12 +1,18 @@
 {
   "name": "Desenvolvedor FullStack Arthur Santos ",
   "short_name": "Portfolio Arthur Santos",
+  "lang": "pt-BR",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "browser",
   "scope": "/",
   "start_url": ".",
   "description": "Portfolio de desenvolvedor arthur santos, aqui tem minhas informaçoes caso queira entrar em contato!",
+  "icons": [
+    {
+      "src": "assets/favicon.ico",
+      "sizes": "256x256"
+    }],
   "related_applications": [
     {
       "platform": "web"
