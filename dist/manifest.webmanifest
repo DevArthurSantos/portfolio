@@ -1,0 +1,40 @@
+{
+  "name": "Desenvolvedor FullStack Arthur Santos ",
+  "short_name": "Portfolio Arthur Santos",
+  "lang": "pt-BR",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": ".",
+  "description": "Cartão de visita Arthur Santos, verifique minhas informações para contato!",
+  "icons": [
+    {
+      "src": "assets/favicon.webp",
+      "sizes": "256x256",
+      "type": "image/webp"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://arthursantos.tech/",
+      "id": "arthursantos.tech"
+    },
+    {
+      "platform": "tailwindcss",
+      "url": "https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css",
+      "id": "https://tailwindcss.com/"
+    },
+    {
+      "platform": "popper.js",
+      "url": "https://unpkg.com/popper.js@1/dist/umd/popper.min.js",
+      "id": "popper.js.org"
+    },
+    {
+      "platform": "tippy.js",
+      "url": "https://unpkg.com/tippy.js@4",
+      "id": "atomiks.github.io/tippyjs"
+    }
+  ]
+}
