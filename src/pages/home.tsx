@@ -34,7 +34,7 @@ function Home() {
           <div id="profile"
             className={"w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl opacity-95 mx-6 lg:mx-0" + theme.classList[1]}>
 
-            <div className="p-4 md:p-12 text-center lg:text-left">
+            <div className="p-4 md:p-10 text-center lg:text-left">
               {/* <!-- Image for mobile view--> */}
               <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-myself" />
 
@@ -46,23 +46,21 @@ function Home() {
                   d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
               </svg> Desenvolvedor FullStack</p>
               <p
-                className="pt-2 text-base lg:text-sm flex font-semibold items-center justify-center lg:justify-start">
+                className="pt-4 text-base lg:text-sm flex font-semibold items-center justify-center lg:justify-start">
                 <svg className="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path
                     d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z" />
                 </svg> Resido em Vitoria-PE, Brasil.
               </p>
-              <p className="pt-8 text-sm font-semibold">
-                Atuando na área a cerca de 1 ano, adquirir experiência e com ela veio um desenvolvimento pessoal e
-                técnico muito grande, sou resiliente, capacitado, paciente, gosto de aprender e estudar novas
-                tecnologias estarei sempre
-                aberto a novas críticas e opiniões constitutivas, veja meus projetos no meu <span
-                  className="font-bold">GitHub</span> ou no <span className="font-bold">Linkedin</span> disponíveis nos ícones
-                abaixo.
+              <p className="pt-4 text-sm font-semibold">
+                Com cerca de 3 anos de experiência, destaco-me pela por enfrentar desafios e pela busca incessante por soluções inovadoras.
+                Minhas habilidades foram aprimoradas em uma variedade de projetos, resultando em um desenvolvimento pessoal e técnico.
+                Resiliente, capacitado e paciente, mantenho um constante apetite por aprendizado.
+                Explore mais sobre minha trajetória e projetos no <span className="font-bold">Linkedin</span> ou <span className="font-bold">GitHub</span>, disponíveis nos ícones abaixo.
               </p>
-              <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+              <div className="mx-auto lg:mx-0 w-4/5 pt-4 border-b-2 border-green-500 opacity-25"></div>
 
-              <div className="pt-12 pb-8 flex justify-center gap-4 lg:justify-between flex-wrap">
+              <div className="pt-4 pb-8 flex justify-center gap-4 lg:justify-around flex-wrap">
 
                 <a tabIndex={0} href="assets/Arthur Santos curriculo minimal.pdf" target="_blank"
                   download="Arthur Santos CV min.pdf" className="flex justify-center">
@@ -91,7 +89,7 @@ function Home() {
                 </a>
               </div>
 
-              <div className="mt-6 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+              <div className="pt-4 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-around">
                 <a tabIndex={0} className="link" href="https://www.facebook.com/arthur.santos70/" target="_blank"
                   data-tippy-content="@Facebook"><svg
                     className="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
@@ -130,14 +128,14 @@ function Home() {
                       d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                   </svg></a>
 
-                <a tabIndex={0} className="link" href="https://www.instagram.com/dev.arthurs/" target="_blank"
+                {/* <a tabIndex={0} className="link" href="https://www.instagram.com/dev.arthurs/" target="_blank"
                   data-tippy-content="@Instagram"><svg
                     className="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">
                     <title>Instagram</title>
                     <path
                       d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                  </svg></a>
+                  </svg></a> */}
 
               </div>
 
@@ -146,7 +144,7 @@ function Home() {
           </div>
 
           {/* <!--Img Col--> */}
-          <div className="">
+          <div className="ml-[-25px] z-10">
             <img src="assets/myself.webp" alt="foto de de perfil do Arthur Santos"
               className="rounded-none lg:rounded-lg shadow-2x1 hidden lg:block h-[35rem]" />
           </div>
