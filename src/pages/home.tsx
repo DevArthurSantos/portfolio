@@ -146,7 +146,7 @@ function Home() {
           </div>
 
           {/* <!--Img Col--> */}
-          <div className="w-2/6">
+          <div className="">
             <img src="assets/myself.webp" alt="foto de de perfil do Arthur Santos"
               className="rounded-none lg:rounded-lg shadow-2x1 hidden lg:block h-[35rem]" />
           </div>
