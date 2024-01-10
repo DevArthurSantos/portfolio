@@ -56,7 +56,10 @@ function Home() {
                 Com cerca de 3 anos de experiência, destaco-me pela por enfrentar desafios e pela busca incessante por soluções inovadoras.
                 Minhas habilidades foram aprimoradas em uma variedade de projetos, resultando em um desenvolvimento pessoal e técnico.
                 Resiliente, capacitado e paciente, mantenho um constante apetite por aprendizado.
-                Explore mais sobre minha trajetória e projetos no <span className="font-bold">Linkedin</span> ou <span className="font-bold">GitHub</span>, disponíveis nos ícones abaixo.
+                Explore mais sobre minha trajetória e projetos no 
+                <a href="https://www.linkedin.com/in/devarthursantos/" target="_blank"><span className="font-bold mr-1 ml-1 text-green-700">Linkedin</span></a>
+                 ou  
+                <a href="https://github.com/DevArthurSantos" target="_blank"><span className="font-bold ml-1 text-green-700">GitHub</span></a>.
               </p>
               <div className="mx-auto lg:mx-0 w-4/5 pt-4 border-b-2 border-green-500 opacity-25"></div>
 
