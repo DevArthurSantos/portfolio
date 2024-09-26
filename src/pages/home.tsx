@@ -1,4 +1,6 @@
 import usePersistedState from "../infra/utils/Hooks/userPersistedState"
+import { MdOutlineLaptopChromebook } from "react-icons/md";
+import { IoDocumentAttachOutline } from "react-icons/io5";
 
 type ThemeProps = {
   title: string
@@ -44,7 +46,7 @@ function Home() {
                 className="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path
                   d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
-              </svg> Desenvolvedor FullStack</p>
+              </svg>Desenvolvedor Web</p>
               <p
                 className="pt-4 text-base lg:text-sm flex font-semibold items-center justify-center lg:justify-start">
                 <svg className="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -53,41 +55,36 @@ function Home() {
                 </svg> Resido em Vitoria-PE, Brasil.
               </p>
               <p className="pt-4 text-sm font-semibold">
-                Com cerca de 3 anos de experiência, destaco-me pela por enfrentar desafios e pela busca incessante por soluções inovadoras.
+                Com cerca de 6 anos de experiência, destaco-me pela por enfrentar desafios e pela busca incessante por soluções inovadoras.
                 Minhas habilidades foram aprimoradas em uma variedade de projetos, resultando em um desenvolvimento pessoal e técnico.
                 Resiliente, capacitado e paciente, mantenho um constante apetite por aprendizado.
-                Explore mais sobre minha trajetória e projetos no 
+                Explore mais sobre minha trajetória e projetos no
                 <a href="https://www.linkedin.com/in/devarthursantos/" target="_blank"><span className="font-bold mr-1 ml-1 text-green-700">Linkedin</span></a>
-                 ou  
+                ou
                 <a href="https://github.com/DevArthurSantos" target="_blank"><span className="font-bold ml-1 text-green-700">GitHub</span></a>.
               </p>
               <div className="mx-auto lg:mx-0 w-4/5 pt-4 border-b-2 border-green-500 opacity-25"></div>
 
               <div className="pt-4 pb-8 flex justify-center gap-4 lg:justify-around flex-wrap">
 
-                <a tabIndex={0} href="assets/Arthur Santos curriculo minimal.pdf" target="_blank"
+                <a tabIndex={0} href="assets/Arthur Santos curriculo.pdf" target="_blank"
                   download="Arthur Santos CV min.pdf" className="flex justify-center">
                   <button
                     className="bg-green-700 hover:bg-green-900 text-white font-semibold py-2 px-4 rounded-full flex items-center justify-center">
-                    <svg width="30" height="24" xmlns="http://www.w3.org/2000/svg"
-                      fill-rule="evenodd" clip-rule="evenodd">
-                      <path
-                        d="M22 0h-20v24h14l6-6v-18zm-7 23h-12v-22h18v16h-6v6zm1-5h4.586l-4.586 4.586v-4.586zm-3 1h-8v1h8v-1zm0-3h-8v1h8v-1zm6-2v-1h-14v1h14zm0-4h-4v1h4v-1zm-6.006 1h-7.991l-.003-.789c-.003-.72-.006-1.615 1.314-1.92 1.483-.341 1.236-.418 1.158-.563-1.078-1.988-.71-3.173-.395-3.703.388-.651 1.089-1.025 1.923-1.025.827 0 1.523.368 1.91 1.011.545.904.409 2.222-.379 3.713-.105.196-.195.255 1.119.559 1.355.312 1.352 1.212 1.35 1.936l-.006.781zm-6.994-1h6c-.007-.547-.07-.626-.54-.734-.855-.198-1.629-.376-1.901-.972-.142-.311-.113-.66.087-1.039.61-1.151.758-2.146.407-2.729-.276-.458-.778-.526-1.053-.526-.48 0-.857.19-1.063.537-.352.59-.201 1.58.414 2.714.204.377.236.727.095 1.039-.269.598-1.036.774-1.847.962-.525.121-.593.202-.599.748zm13-2v-1h-4v1h4zm0-4h-4v1h4v-1z" />
-                    </svg>
-                    BAIXAR CV MIN
+                    <div className="mr-2">
+                      <IoDocumentAttachOutline />
+                    </div>
+                    CURRÍCULO
                   </button>
                 </a>
 
-                <a tabIndex={0} href="assets/Arthur Santos curriculo full.pdf" target="_blank"
-                  download="Arthur Santos CV full.pdf" className="flex justify-center">
+                <a tabIndex={0} href="https://arthur.aurionsolutions.tech/" target="_blank" className="flex justify-center">
                   <button
                     className="bg-green-700 hover:bg-green-900 text-white font-semibold py-2 px-4 rounded-full flex items-center justify-center">
-                    <svg width="30" height="24" xmlns="http://www.w3.org/2000/svg"
-                      fill-rule="evenodd" clip-rule="evenodd">
-                      <path
-                        d="M22 0h-20v24h14l6-6v-18zm-7 23h-12v-22h18v16h-6v6zm1-5h4.586l-4.586 4.586v-4.586zm-3 1h-8v1h8v-1zm0-3h-8v1h8v-1zm6-2v-1h-14v1h14zm0-4h-4v1h4v-1zm-6.006 1h-7.991l-.003-.789c-.003-.72-.006-1.615 1.314-1.92 1.483-.341 1.236-.418 1.158-.563-1.078-1.988-.71-3.173-.395-3.703.388-.651 1.089-1.025 1.923-1.025.827 0 1.523.368 1.91 1.011.545.904.409 2.222-.379 3.713-.105.196-.195.255 1.119.559 1.355.312 1.352 1.212 1.35 1.936l-.006.781zm-6.994-1h6c-.007-.547-.07-.626-.54-.734-.855-.198-1.629-.376-1.901-.972-.142-.311-.113-.66.087-1.039.61-1.151.758-2.146.407-2.729-.276-.458-.778-.526-1.053-.526-.48 0-.857.19-1.063.537-.352.59-.201 1.58.414 2.714.204.377.236.727.095 1.039-.269.598-1.036.774-1.847.962-.525.121-.593.202-.599.748zm13-2v-1h-4v1h4zm0-4h-4v1h4v-1z" />
-                    </svg>
-                    BAIXAR CV
+                    <div className="mr-2">
+                      <MdOutlineLaptopChromebook />
+                    </div>
+                    PORTFOLIO
                   </button>
                 </a>
               </div>
